@@ -1,4 +1,4 @@
-import bootstrap from 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { Routes, Route, Navigate } from 'react-router-dom';
 
@@ -7,7 +7,7 @@ import About from './Components/About/About';
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
 import Home from './Components/Home/Home';
-import Nav from './Components/Nav/Nav';
+import NavBar from './Components/NavBar/NavBar';
 import Projects from './Components/Projects/Projects';
 import Resume from './Components/Resume/Resume';
 import Skills from './Components/Skills/Skills';
@@ -15,7 +15,7 @@ import Skills from './Components/Skills/Skills';
 function App() {
 	return (
 		<div>
-			<Nav />
+			<NavBar />
 			<main>
 				<Routes>
 					<Route path='/about' element={<About />}></Route>
