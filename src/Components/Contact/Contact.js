@@ -1,8 +1,11 @@
-import './Contact.css';
-import React from 'react';
+import './Contact.scss';
 
 function Contact(props) {
-	return <div>Hello from Contact Page</div>;
+	return (
+		<div className='Contact' id='contact'>
+			Contact
+		</div>
+	);
 }
 
 export default Contact;

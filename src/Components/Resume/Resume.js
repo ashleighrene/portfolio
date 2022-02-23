@@ -1,8 +1,11 @@
-import './Resume.css';
-import React from 'react';
+import './Resume.scss';
 
 function Resume(props) {
-	return <div>Hello from resume</div>;
+	return (
+		<div className='Resume' id='resume'>
+			Resume
+		</div>
+	);
 }
 
 export default Resume;

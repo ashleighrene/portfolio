@@ -1,20 +1,10 @@
-import './Home.css';
-import React from 'react';
-import Desert from '../../assets/Desert.png';
+import './Home.scss';
 
 function Home(props) {
 	return (
-		<section className='homeWrapper'>
-			<main className='homeMain'>
-				<div className='homeContainer'>
-					<img
-						src={Desert}
-						alt='Desert Botanical Garden'
-						className='heroImage'
-					/>
-				</div>
-			</main>
-		</section>
+		<div className='Home' id='home'>
+			Home
+		</div>
 	);
 }
 

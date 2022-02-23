@@ -1,42 +1,32 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './NavBar.css';
-import { Navbar, Container, Nav } from 'react-bootstrap';
-import React from 'react';
-import { Link } from 'react-router-dom';
+import './NavBar.scss';
+import { FaceRetouchingNatural, HistoryEdu } from '@mui/icons-material';
 
-function NavBar(props) {
+function NavBar({ navOpen, setNavOpen }) {
 	return (
-		<div>
-			<Navbar className='navbar-container' expand='lg'>
-				<Container>
-					<Link to='/home' className='navHome'>
-						_home
-					</Link>
-					<Navbar.Toggle
-						className='toggleButton'
-						aria-controls='basic-navbar-nav'
-					/>
-					<Navbar.Collapse className='basic-navbar-nav'>
-						<Nav className='me-auto customNav'>
-							<Link to='/about' className='linkStyle'>
-								ABOUT
-							</Link>
-							<Link to='/skills' className='linkStyle'>
-								SKILLS
-							</Link>
-							<Link to='/resume' className='linkStyle'>
-								RESUME
-							</Link>
-							<Link to='/projects' className='linkStyle'>
-								PROJECTS
-							</Link>
-							<Link to='/contact' className='linkStyle'>
-								CONTACT
-							</Link>
-						</Nav>
-					</Navbar.Collapse>
-				</Container>
-			</Navbar>
+		<div className={'NavBar ' + (navOpen && 'active')}>
+			<div className='wrapper'>
+				<div className='left'>
+					<a href='#home' className='logo'>
+						_aw
+					</a>
+					<div className='itemContainer'>
+						<FaceRetouchingNatural className='icon' />
+						<span>623-326-2943</span>
+					</div>
+					<div className='itemContainer'>
+						<HistoryEdu className='icon' />
+						<span>arwaller7@gmail.com</span>
+					</div>
+				</div>
+
+				<div className='right'>
+					<div className='hamburger' onClick={() => setNavOpen(!navOpen)}>
+						<span className='line1'></span>
+						<span className='line2'></span>
+						<span className='line3'></span>
+					</div>
+				</div>
+			</div>
 		</div>
 	);
 }

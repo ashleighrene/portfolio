@@ -1,8 +1,11 @@
-import './Projects.css';
-import React from 'react';
+import './Projects.scss';
 
 function Projects(props) {
-	return <div>Hello from Projects</div>;
+	return (
+		<div className='Projects' id='projects'>
+			Projects
+		</div>
+	);
 }
 
 export default Projects;

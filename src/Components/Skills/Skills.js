@@ -1,8 +1,11 @@
-import './Skills.css';
-import React from 'react';
+import './Skills.scss';
 
 function Skills(props) {
-	return <div>Hello from skills</div>;
+	return (
+		<div className='Skills' id='skills'>
+			Skills
+		</div>
+	);
 }
 
 export default Skills;

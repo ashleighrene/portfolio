@@ -1,33 +1,28 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
-import { Routes, Route, Navigate } from 'react-router-dom';
-
 // Components
-import About from './Components/About/About';
-import Contact from './Components/Contact/Contact';
-import Footer from './Components/Footer/Footer';
-import Home from './Components/Home/Home';
 import NavBar from './Components/NavBar/NavBar';
+import Home from './Components/Home/Home';
+import About from './Components/About/About';
 import Projects from './Components/Projects/Projects';
 import Resume from './Components/Resume/Resume';
 import Skills from './Components/Skills/Skills';
+import Contact from './Components/Contact/Contact';
+import { useState } from 'react';
+import './app.scss';
 
 function App() {
+	const [navOpen, setNavOpen] = useState(false);
+
 	return (
-		<div>
-			<NavBar />
-			<main>
-				<Routes>
-					<Route path='/about' element={<About />}></Route>
-					<Route path='/contact' element={<Contact />}></Route>
-					<Route path='/home' element={<Home />}></Route>
-					<Route path='/projects' element={<Projects />}></Route>
-					<Route path='/resume' element={<Resume />}></Route>
-					<Route path='/skills' element={<Skills />}></Route>
-					<Route path='/' element={<Navigate replace to='/home' />}></Route>
-				</Routes>
-			</main>
-			<Footer />
+		<div className='app'>
+			<NavBar navOpen={navOpen} setNavOpen={setNavOpen} />
+			<div className='sections'>
+				<Home />
+				<About />
+				<Projects />
+				<Resume />
+				<Skills />
+				<Contact />
+			</div>
 		</div>
 	);
 }
