@@ -2,8 +2,9 @@ import './Contact.scss';
 
 function Contact(props) {
 	return (
-		<div className='Contact' id='contact'>
-			Contact
+		<div className='contact' id='contact'>
+			<div className='left'></div>
+			<div className='right'></div>
 		</div>
 	);
 }

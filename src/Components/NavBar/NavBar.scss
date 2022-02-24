@@ -7,7 +7,7 @@
 	height: 70px;
 	position: fixed;
 	top: 0;
-	z-index: 2;
+	z-index: 3;
 	transition: all 1s ease;
 
 	.wrapper {
@@ -20,7 +20,7 @@
 			display: flex;
 			align-items: center;
 			.logo {
-				font-size: 30px;
+				font-size: 35px;
 				font-weight: 700;
 				text-decoration: none;
 				color: inherit;

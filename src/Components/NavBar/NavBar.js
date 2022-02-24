@@ -1,5 +1,5 @@
 import './NavBar.scss';
-import { FaceRetouchingNatural, HistoryEdu } from '@mui/icons-material';
+import { PhoneAndroid, HistoryEdu } from '@mui/icons-material';
 
 function NavBar({ navOpen, setNavOpen }) {
 	return (
@@ -10,7 +10,7 @@ function NavBar({ navOpen, setNavOpen }) {
 						_aw
 					</a>
 					<div className='itemContainer'>
-						<FaceRetouchingNatural className='icon' />
+						<PhoneAndroid className='icon' />
 						<span>623-326-2943</span>
 					</div>
 					<div className='itemContainer'>

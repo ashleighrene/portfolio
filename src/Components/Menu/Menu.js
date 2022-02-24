@@ -1,15 +1,23 @@
 import './Menu.scss';
 
-function Menu(props) {
+function Menu({ navOpen, setNavOpen }) {
 	return (
-		<div className='menu'>
+		<div className={'menu ' + (navOpen && 'active')}>
 			<ul>
-				<li>
+				<li onClick={() => setNavOpen(false)}>
 					<a href='#home'>Home</a>
+				</li>
+				<li onClick={() => setNavOpen(false)}>
 					<a href='#about'>About</a>
+				</li>
+				<li onClick={() => setNavOpen(false)}>
 					<a href='#projects'>Projects</a>
-					<a href='#resume'>Resume</a>
+				</li>
+
+				<li onClick={() => setNavOpen(false)}>
 					<a href='#skills'>Skills</a>
+				</li>
+				<li onClick={() => setNavOpen(false)}>
 					<a href='#contact'>Contact</a>
 				</li>
 			</ul>
