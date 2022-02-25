@@ -14,7 +14,7 @@ function Home(props) {
 			backDelay: 1500,
 			typeSpeed: 90,
 			backSpeed: 50,
-			strings: ['Engineer', 'Developer', 'Creator', 'Sea Turtle?'],
+			strings: ['Engineer', 'Developer', 'Creator', 'Panda?'],
 		});
 	}, []);
 

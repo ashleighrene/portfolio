@@ -17,9 +17,6 @@ function Menu({ navOpen, setNavOpen }) {
 				<li onClick={() => setNavOpen(false)}>
 					<a href='#skills'>Skills</a>
 				</li>
-				<li onClick={() => setNavOpen(false)}>
-					<a href='#contact'>Contact</a>
-				</li>
 			</ul>
 		</div>
 	);
