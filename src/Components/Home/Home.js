@@ -14,7 +14,7 @@ function Home(props) {
 			backDelay: 1500,
 			typeSpeed: 90,
 			backSpeed: 50,
-			strings: ['Engineer', 'Developer', 'Creator', 'Panda?'],
+			strings: ['Engineer', 'Developer', 'Creator', 'Sea Turtle?'],
 		});
 	}, []);
 
@@ -42,5 +42,7 @@ function Home(props) {
 		</div>
 	);
 }
+
+// Lama Dev's Youtube Channel was extremely helpful when building this site.  Buy them coffee! https://www.youtube.com/channel/UCOxWrX5MIdXIeRNaXC3sqIg
 
 export default Home;
