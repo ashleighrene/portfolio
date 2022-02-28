@@ -13,7 +13,7 @@ import postman from '../../assets/postman.svg';
 
 function Skills(props) {
 	return (
-		<div className='skillsMain'>
+		<div className='skillsMain' id='skills'>
 			<img src={html} alt='html' />
 			<img src={css} alt='css' />
 			<img src={sass} alt='sass' />

@@ -6,7 +6,7 @@ import { PhoneAndroid, HistoryEdu } from '@mui/icons-material';
 
 function About(props) {
 	return (
-		<div className='About'>
+		<div className='About' id='about'>
 			<div className='wrapper'>
 				<a href='https://github.com/ashleighrene' className='aboutAnchor'>
 					<img src={github} alt='github logo' />
