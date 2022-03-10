@@ -25,8 +25,8 @@ function Projects(props) {
 					</div>
 					<div className='center'>
 						Mobile first food ordering app for fake resturant fuGO. Next steps
-						include a login with with built in back-end so items can be added
-						for checkout.
+						include a login with built in back-end so items can be added for
+						checkout.
 					</div>
 					<div className='bottom'>
 						<h3>Built Using:</h3>
