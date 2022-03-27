@@ -1,6 +1,5 @@
 import './Home.scss';
 import Desert from '../../assets/Desert.png';
-import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import 'animate.css';
 import { init } from 'ityped';
 import { useEffect, useRef } from 'react';
@@ -14,7 +13,7 @@ function Home(props) {
 			backDelay: 1500,
 			typeSpeed: 90,
 			backSpeed: 50,
-			strings: ['Engineer', 'Developer', 'Creator', 'Sea Turtle?'],
+			strings: ['Engineer', 'Developer', 'Creator'],
 		});
 	}, []);
 
@@ -35,9 +34,6 @@ function Home(props) {
 						Software <span ref={textRef}></span>
 					</h3>
 				</div>
-				<a href='#projects'>
-					<ArrowDownwardIcon className='animate__animated animate__flash animate__infinite arrowIcon' />
-				</a>
 			</div>
 		</div>
 	);

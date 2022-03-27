@@ -88,19 +88,5 @@
 				}
 			}
 		}
-		a {
-			position: absolute;
-			bottom: 10px;
-			left: 40%;
-
-			.arrowIcon {
-				font-size: 50px;
-				color: black;
-			}
-
-			.animate__animated.animate__flash {
-				--animate-duration: 4s;
-			}
-		}
 	}
 }

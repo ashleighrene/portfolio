@@ -1,5 +1,5 @@
 .About {
-	background-color: white;
+	background-color: rgb(38, 143, 134);
 	display: flex;
 	flex-direction: column;
 
@@ -14,19 +14,31 @@
 
 		p {
 			font-size: 30px;
-			height: 50%;
-			line-height: 1.5;
-			margin: 0 15px;
+			width: 80%;
+			height: 30%;
+			line-height: 1.8;
+			padding: 0 15px;
+			text-align: center;
 		}
 	}
 
-	.contactContainer {
-		font-size: 24px;
+	.skillsMain {
+		background-color: white;
+		width: 80%;
+		height: 20%;
 		display: flex;
-		justify-content: center;
+		flex-direction: row;
+		flex-wrap: wrap;
 		align-items: center;
-		padding-right: 15px;
-		margin-bottom: 10px;
+		justify-content: center;
+		padding: 10px;
+		margin: 5px;
+		border-radius: 10px;
+
+		img {
+			width: 8%;
+			margin: 5px;
+		}
 	}
 }
 .aboutAnchor {
@@ -38,4 +50,25 @@
 	width: 100px;
 	padding-right: 20px;
 	position: relative;
+}
+
+@media (min-width: 1950px) {
+	.aboutAnchor {
+		left: 1000px;
+		top: -230px;
+	}
+
+	.wrapper {
+		p {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 30px;
+			width: auto;
+			height: 20%;
+			line-height: 1.8;
+			padding: 0 15px;
+			text-align: center;
+		}
+	}
 }

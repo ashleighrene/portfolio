@@ -6,7 +6,7 @@ import Menu from './Components/Menu/Menu';
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import Projects from './Components/Projects/Projects';
-import Skills from './Components/Skills/Skills';
+
 import { useState } from 'react';
 
 function App() {
@@ -20,7 +20,6 @@ function App() {
 				<Home />
 				<About />
 				<Projects />
-				<Skills />
 			</div>
 		</div>
 	);
