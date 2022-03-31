@@ -9,7 +9,7 @@ function Projects(props) {
 	return (
 		<div className='projects' id='projects'>
 			<h1>Projects</h1>
-			<h3>All using Git and Github - Deployed with Github Pages or Netlify.</h3>
+			<h3>All using Git and Github - Deployed with Netlify.</h3>
 			<div className='container'>
 				<div className='card'>
 					<div className='top'>
@@ -58,7 +58,7 @@ function Projects(props) {
 				</div>
 				<div className='card'>
 					<div className='top'>
-						<a href='https://github.com/ashleighrene/villager-man'>
+						<a href='https://villager-man.netlify.app/'>
 							<img src={github} alt='Github logo ' className='left' />
 						</a>
 
