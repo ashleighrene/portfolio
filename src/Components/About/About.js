@@ -31,12 +31,12 @@ function About(props) {
 					<img src={linkedin} alt='linkedin logo' />
 				</a>
 				<p className='aboutText'>
-					Before diving into coding, I worked as a medical assistant in
-					pediatric oncology and as a nursing assistant in home care. I
-					currently work with the MERN stack but I'm very open to learning new
-					languages. I Live in the greater Seattle area with 3 cats, a scorpion
-					and 2 other humans. I love to hike, cook, knit, and play table-top
-					games in my spare time.
+					Before heading into the wild world of code, I worked as a medical
+					assistant in pediatric oncology and as a nursing assistant in home
+					care. I currently work with the MERN stack but I'm very open to
+					learning new languages. I live in the greater Seattle area with 3
+					cats, a scorpion and 2 other humans. I love to hike, cook, knit, and
+					play table-top games in my spare time.
 				</p>
 
 				<div className='skillsMain' id='skills'>

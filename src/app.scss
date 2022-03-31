@@ -7,7 +7,7 @@
 		position: relative;
 		top: 70px;
 		scroll-behavior: smooth;
-		scroll-snap-type: y mandatory;
+		scroll-snap-type: y none;
 		scrollbar-width: none; //For Firefox Only
 		&::-webkit-scrollbar {
 			display: none; //To remove Scrollbar for all other browsers
