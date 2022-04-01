@@ -1,8 +1,12 @@
 import './Home.scss';
 import Desert from '../../assets/Desert.png';
+import Scribble from '../../assets/scribble.svg';
+import Headshot from '../../assets/Headshot.png';
 import 'animate.css';
 import { init } from 'ityped';
 import { useEffect, useRef } from 'react';
+
+
 
 function Home(props) {
 	const textRef = useRef();
@@ -28,6 +32,11 @@ function Home(props) {
 			</div>
 			<div className='right'>
 				<div className='wrapper'>
+					<img className='arrow' src={Scribble} alt='Curled Arrow' />
+					<div>Let's Chat</div>
+					<a href='https://www.linkedin.com/in/ashleighrene/'>
+						<img className='profile' src={Headshot} alt='Ashleigh' />
+					</a>
 					<h2>Hello, I'm</h2>
 					<h1>Ashleigh</h1>
 					<h3>

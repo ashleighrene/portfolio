@@ -48,6 +48,8 @@
 			flex-direction: column;
 			justify-content: center;
 
+		
+
 			@include mobile {
 				padding-left: 0;
 				align-items: center;
@@ -85,6 +87,51 @@
 					100% {
 						opacity: 0;
 					}
+				}
+			}
+
+			.arrow {
+				transform: rotate(20deg);
+				width: 100px;
+				height: auto;
+				position: absolute;
+				top: 20px;
+				left: 140px;
+
+				@include mobile {
+					display: none;
+				}
+
+
+
+			}
+
+			div {
+				position: absolute;
+				top: 160px;
+				font-size: 40px;
+				transform: rotate(20deg);
+				font-family: 'Permanent Marker',
+				cursive;
+				
+
+				@include mobile {
+					display: none;
+				}
+			}
+
+			.profile {
+				width: 200px;
+				height: 190px;
+				border-radius: 50%;
+				position: absolute;
+				top: 40px;
+				right: 480px;
+				cursor: pointer;
+				
+
+				@include mobile {
+					display: none;
 				}
 			}
 		}
