@@ -1,7 +1,5 @@
 import './Home.scss';
 import Desert from '../../assets/Desert.png';
-import Scribble from '../../assets/scribble.svg';
-import Headshot from '../../assets/Headshot.png';
 import 'animate.css';
 import { init } from 'ityped';
 import { useEffect, useRef } from 'react';
