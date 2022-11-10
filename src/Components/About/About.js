@@ -21,7 +21,7 @@ function About(props) {
 					<img src={github} alt='github logo' />
 				</a>
 				<a
-					href='https://docs.google.com/document/d/1acyfZzy6aCDYlpEEAbu93A2p2SbshegmiY8IguKagtY/export?format=pdf'
+					href='https://docs.google.com/document/d/1E5KlVyHHip_KsJZf2C3xz3IXnE55ezb4ZFv8AH4rakw/export?format=pdf'
 					className='aboutAnchor'>
 					<img src={resume} alt='resume' />
 				</a>
