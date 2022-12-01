@@ -31,7 +31,7 @@ function Home(props) {
 					<h2>Hello, I'm</h2>
 					<h1>Ashleigh</h1>
 					<h3>
-						Software <span ref={textRef}></span>
+						Data <span ref={textRef}></span>
 					</h3>
 				</div>
 			</div>
