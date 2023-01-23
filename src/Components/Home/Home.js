@@ -13,7 +13,7 @@ function Home(props) {
 			backDelay: 1500,
 			typeSpeed: 90,
 			backSpeed: 50,
-			strings: ['Engineer', 'Developer', 'Creator'],
+			strings: ['Front End', 'Backend', 'Full-Stack'],
 		});
 	}, []);
 
@@ -31,7 +31,7 @@ function Home(props) {
 					<h2>Hello, I'm</h2>
 					<h1>Ashleigh</h1>
 					<h3>
-						Data <span ref={textRef}></span>
+						Developer <span ref={textRef}></span>
 					</h3>
 				</div>
 			</div>
